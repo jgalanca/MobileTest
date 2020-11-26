@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CharacterCellId" rowHeight="60" id="Mr3-q5-jsi" customClass="CharacterCell" customModule="MobileTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mr3-q5-jsi" id="xWi-3i-gA8">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DHp-KV-Rtw">
+                        <rect key="frame" x="0.0" y="0.0" width="207" height="80"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="pud-wn-1ip">
+                        <rect key="frame" x="207" y="0.0" width="207" height="80"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="DHp-KV-Rtw" secondAttribute="bottom" id="C9K-A5-OTE"/>
+                    <constraint firstAttribute="trailing" secondItem="pud-wn-1ip" secondAttribute="trailing" id="DDX-Tf-JNo"/>
+                    <constraint firstItem="pud-wn-1ip" firstAttribute="width" secondItem="DHp-KV-Rtw" secondAttribute="width" multiplier="0.957547" constant="8.7877358490566166" id="GXk-hC-5r0"/>
+                    <constraint firstAttribute="bottom" secondItem="pud-wn-1ip" secondAttribute="bottom" id="KmM-js-YpH"/>
+                    <constraint firstItem="DHp-KV-Rtw" firstAttribute="leading" secondItem="xWi-3i-gA8" secondAttribute="leading" id="PdG-tl-6xD"/>
+                    <constraint firstItem="pud-wn-1ip" firstAttribute="top" secondItem="xWi-3i-gA8" secondAttribute="top" id="Qmy-Zc-NCa"/>
+                    <constraint firstItem="DHp-KV-Rtw" firstAttribute="top" secondItem="xWi-3i-gA8" secondAttribute="top" id="ft3-XG-3Fz"/>
+                    <constraint firstItem="pud-wn-1ip" firstAttribute="leading" secondItem="DHp-KV-Rtw" secondAttribute="trailing" id="jyU-30-lnm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="charImageView" destination="DHp-KV-Rtw" id="gua-ar-B8r"/>
+                <outlet property="charNameLabel" destination="pud-wn-1ip" id="fa8-Y2-1dv"/>
+            </connections>
+            <point key="canvasLocation" x="79.710144927536234" y="84.375"/>
+        </tableViewCell>
+    </objects>
+</document>

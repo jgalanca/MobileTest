@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  MobileTest
+
+  Created by Javier Galán on 26/11/20.
+  
+*/
+
+"title"="Marvel";
+
+"error"="Error";
+"ok"="Ok";
+"accept"="Accept";
+"cancel"="Cancel";
+
+"no_data"="No results found";
+"unauthorized"="You need permissions to perform this action";
+"conflict"="There was a problem. Please try again later";
+
+"search"="Search";
+"no_information"="No information";
+
+"name"="Name";
+"description"="Information";
+"comics"="Comics";
+"series"="Series";

@@ -1,0 +1,26 @@
+PODS:
+  - CryptoSwift (1.3.7)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - SwiftLint (0.41.0)
+
+DEPENDENCIES:
+  - CryptoSwift
+  - Kingfisher
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - Kingfisher
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  CryptoSwift: b6faad405e69964740422daf121918b5b1870f2b
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
+
+PODFILE CHECKSUM: 4d2395653ce290248163817d5de08a7a484f1b07
+
+COCOAPODS: 1.10.0
